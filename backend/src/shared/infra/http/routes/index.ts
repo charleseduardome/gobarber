@@ -7,7 +7,7 @@ import sessionsRouter from './sessions.routes';
 const routes = Router();
 
 routes.use('/users', usersRouter);
-routes.use('/appointments', appointmentsRouter);
 routes.use('/sessions', sessionsRouter);
+routes.use('/appointments', appointmentsRouter);
 
 export default routes;
