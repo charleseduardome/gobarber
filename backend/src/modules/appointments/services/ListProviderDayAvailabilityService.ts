@@ -58,7 +58,6 @@ class ListProviderDayAvailabilityService {
         available: !hasAppointmentInHour && isAfter(compareDate, currentDate),
       };
     });
-
     return availability;
   }
 }
