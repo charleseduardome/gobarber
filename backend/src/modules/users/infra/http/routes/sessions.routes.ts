@@ -2,7 +2,7 @@ import { Router } from 'express';
 
 import { celebrate, Segments, Joi } from 'celebrate';
 
-import SessionsController from '@modules/users/infra/controllers/SessionsController';
+import SessionsController from '@modules/users/infra/http//controllers/SessionsController';
 
 const sessionsRouter = Router();
 const sessionsController = new SessionsController();
