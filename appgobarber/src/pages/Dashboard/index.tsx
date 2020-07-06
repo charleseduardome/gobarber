@@ -32,7 +32,7 @@ export interface Provider {
 const Dashboard: React.FC = () => {
   const [providers, setProviders] = useState<Provider[]>([]);
 
-  const { user, signOut } = useAuth();
+  const { user } = useAuth();
   const { navigate } = useNavigation();
 
   const navigateProfile = useCallback(() => {
@@ -60,7 +60,7 @@ const Dashboard: React.FC = () => {
           <UserName>{user.name}</UserName>
         </HeaderTitle>
 
-        <ProfileButton onPress={signOut}>
+        <ProfileButton onPress={navigateProfile}>
           <UserAvatar
             source={{
               uri: user.avatar_url
