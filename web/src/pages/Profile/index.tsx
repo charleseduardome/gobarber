@@ -40,7 +40,7 @@ const Profile: React.FC = () => {
           name: Yup.string().required('Nome obrigatório'),
           email: Yup.string()
             .required('E-mail obrigatório')
-            .email('Gigite um e-mail válido'),
+            .email('Digite um e-mail válido'),
           old_password: Yup.string(),
           password: Yup.string().when('old_password', {
             is: val => !!val.length,
