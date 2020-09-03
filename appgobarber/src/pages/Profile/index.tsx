@@ -1,4 +1,6 @@
 import React, { useRef, useCallback } from 'react';
+import ImageEditor from '@react-native-community/image-editor';
+import Icon from 'react-native-vector-icons/Feather';
 import {
   View,
   ScrollView,
@@ -11,8 +13,6 @@ import { useNavigation } from '@react-navigation/native';
 import { Form } from '@unform/mobile';
 import { FormHandles } from '@unform/core';
 import ImagePicker from 'react-native-image-picker';
-
-import Icon from 'react-native-vector-icons/Feather';
 
 import * as Yup from 'yup';
 import api from '../../services/api';

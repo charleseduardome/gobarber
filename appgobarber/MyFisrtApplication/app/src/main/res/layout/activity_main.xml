@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="187dp">
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputEditText
+    android:layout_width="362dp"
+    android:layout_height="wrap_content"
+    android:hint="hint"
+    tools:layout_editor_absoluteX="31dp"
+    tools:layout_editor_absoluteY="76dp" />
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="198dp">
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="hint"
+    tools:layout_editor_absoluteX="-3dp"
+    tools:layout_editor_absoluteY="324dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
